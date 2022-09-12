@@ -1,0 +1,319 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white
+  color: black;
+}
+
+.services{
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.title{
+  color: #ff4500;
+}
+
+.services_section{
+  max-width: 100%;
+  margin-left: 10px;
+  padding: 0px 15px;
+  margin-top: 100px;
+}
+
+.sec1{
+  width: 600px;
+  margin: 50px auto 10px 20px;
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 0.1em;
+}
+
+.pedman_png{
+  float: right;
+  width: 130px;
+  height: 160px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px
+}
+
+.sec2{
+  width: 800px;
+  margin: 100px 20px 10px auto;
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 0.1em;
+}
+
+.hair_png{
+  float: right;
+  width: 120px;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.cosmetology{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-left: 45px;
+}
+
+.sec3{
+  width: 600px;
+  margin: 100px auto 10px 20px;
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 0.1em;
+}
+
+.eye{
+  float: right;
+  width: 130px;
+  height: 160px;
+  margin-top: 60px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px
+}
+
+.sec4{
+  width: 700px;
+  margin: 100px 20px 10px auto;
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 0.1em;
+}
+
+.nail{
+  float: right;
+  width: 100px;
+  height: 130px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px
+}
+
+.sec5{
+  width: 600px;
+  margin: 100px auto 10px 20px;
+  padding: 5px;
+  font-size: 20px;
+  word-spacing: 0.1em;
+}
+
+.treatment{
+  float: right;
+  width: 150px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  border: outset white;
+  padding: 70px, 0px;
+  text-align: center;
+}
+
+.menubar ul{
+  display: inline-flex;
+  list-style: none;
+}
+
+.menubar ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.menubar ul li{
+  margin: 50px;
+}
+
+.menubar ul li ul{
+  display: block;
+  list-style: disc;
+}
+
+.menubar ul li ul li{
+  margin: 10px;
+  padding: 10px;
+}
+
+.code{
+  text-align: center;
+}
+
+.logo{
+  width: 100px;
+  height: 60px;
+  display: block;
+  margin: 20px auto;
+}
+
+.social ul li{
+  list-style: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .sec1{
+    width: 100%;
+    padding: 2px;
+    font-size: 17px;
+    word-spacing: 0.1em;
+  }
+
+  .pedman_png{
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sec2{
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    word-spacing: 0.1em;
+  }
+
+  .hair_png{
+    float: none;
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sec3{
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    word-spacing: 0.1em;
+  }
+
+  .eye{
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 130px;
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sec4{
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    word-spacing: 0.1em;
+  }
+
+  .nail{
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 100px;
+    height: 130px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sec5{
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    word-spacing: 0.1em;
+  }
+
+  .treatment{
+    display: block;
+    margin: 0px auto;
+    float: none;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .cosmetology{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-left: 30px;
+  }
+
+  .services_section{
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px 15px;
+    margin-top: 100px;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    border: outset white;
+    padding: 50px, 0px;
+  }
+
+  .menubar ul{
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .menubar ul li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .menubar ul li{
+    margin: 20px;
+  }
+
+  .menubar ul li ul{
+    display: block;
+    list-style: disc;
+  }
+
+  .menubar ul li ul li{
+    margin: 1px auto 1px 10px;
+  }
+
+  .code{
+    text-align: center;
+  }
+
+  .logo{
+    width: 100px;
+    height: 60px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .social ul li{
+    list-style: none;
+  }
+}
